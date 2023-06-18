@@ -1,0 +1,451 @@
+{
+  "collection": {
+    "_": {
+      "postman_id": "3a3210c2-0fc6-454a-ab0c-33381eca35f4"
+    },
+    "item": [
+      {
+        "id": "f0be4297-32e8-451a-8dc5-39324e2bcf86",
+        "name": "get all clients",
+        "request": {
+          "url": {
+            "port": "8080",
+            "path": [
+              "clients"
+            ],
+            "host": [
+              "localhost"
+            ],
+            "query": [],
+            "variable": []
+          },
+          "method": "GET",
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "type": "string",
+                "value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcmFib2RoYW0iLCJleHAiOjE2NzI2MTQ3NTYsImlhdCI6MTY3MjU3ODc1Nn0.MH_k85G92VaGGnFdKBizfHETef-OT9C2kTL97cY_VqOQ-uf5g_4FROs5MOAuru9WJIc3xybH4M3dc93PsaQEyw",
+                "key": "token"
+              }
+            ]
+          }
+        },
+        "response": [],
+        "event": []
+      }
+    ],
+    "event": [],
+    "variable": [],
+    "info": {
+      "_postman_id": "3a3210c2-0fc6-454a-ab0c-33381eca35f4",
+      "name": "test_collection",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    }
+  },
+  "environment": {
+    "id": "57c5dca7-aa79-4b08-b4ab-fcdc6d658852",
+    "values": []
+  },
+  "globals": {
+    "id": "e00c6770-52a0-43e3-ab45-1780f6d84b1c",
+    "values": []
+  },
+  "run": {
+    "stats": {
+      "iterations": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "items": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "scripts": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      },
+      "prerequests": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "requests": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "tests": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "assertions": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      },
+      "testScripts": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      },
+      "prerequestScripts": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      }
+    },
+    "timings": {
+      "responseAverage": 62,
+      "responseMin": 62,
+      "responseMax": 62,
+      "responseSd": 0,
+      "dnsAverage": 0,
+      "dnsMin": 0,
+      "dnsMax": 0,
+      "dnsSd": 0,
+      "firstByteAverage": 0,
+      "firstByteMin": 0,
+      "firstByteMax": 0,
+      "firstByteSd": 0,
+      "started": 1687022016731,
+      "completed": 1687022016836
+    },
+    "executions": [
+      {
+        "cursor": {
+          "position": 0,
+          "iteration": 0,
+          "length": 1,
+          "cycles": 1,
+          "empty": false,
+          "eof": false,
+          "bof": true,
+          "cr": false,
+          "ref": "f5954712-7364-42fc-a4bc-9255c7c856ed",
+          "httpRequestId": "d297f975-ae42-48ae-be2d-4298f1263b73"
+        },
+        "item": {
+          "id": "f0be4297-32e8-451a-8dc5-39324e2bcf86",
+          "name": "get all clients",
+          "request": {
+            "url": {
+              "port": "8080",
+              "path": [
+                "clients"
+              ],
+              "host": [
+                "localhost"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "method": "GET",
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "type": "string",
+                  "value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcmFib2RoYW0iLCJleHAiOjE2NzI2MTQ3NTYsImlhdCI6MTY3MjU3ODc1Nn0.MH_k85G92VaGGnFdKBizfHETef-OT9C2kTL97cY_VqOQ-uf5g_4FROs5MOAuru9WJIc3xybH4M3dc93PsaQEyw",
+                  "key": "token"
+                }
+              ]
+            }
+          },
+          "response": [],
+          "event": []
+        },
+        "request": {
+          "url": {
+            "protocol": "http",
+            "port": "8080",
+            "path": [
+              "clients"
+            ],
+            "host": [
+              "localhost"
+            ],
+            "query": [],
+            "variable": []
+          },
+          "header": [
+            {
+              "key": "Authorization",
+              "value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcmFib2RoYW0iLCJleHAiOjE2NzI2MTQ3NTYsImlhdCI6MTY3MjU3ODc1Nn0.MH_k85G92VaGGnFdKBizfHETef-OT9C2kTL97cY_VqOQ-uf5g_4FROs5MOAuru9WJIc3xybH4M3dc93PsaQEyw",
+              "system": true
+            },
+            {
+              "key": "User-Agent",
+              "value": "PostmanRuntime/7.29.0",
+              "system": true
+            },
+            {
+              "key": "Accept",
+              "value": "*/*",
+              "system": true
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache",
+              "system": true
+            },
+            {
+              "key": "Postman-Token",
+              "value": "591001db-4227-4b87-9212-c0d7488e782e",
+              "system": true
+            },
+            {
+              "key": "Host",
+              "value": "localhost:8080",
+              "system": true
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "gzip, deflate, br",
+              "system": true
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive",
+              "system": true
+            }
+          ],
+          "method": "GET",
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "type": "string",
+                "value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcmFib2RoYW0iLCJleHAiOjE2NzI2MTQ3NTYsImlhdCI6MTY3MjU3ODc1Nn0.MH_k85G92VaGGnFdKBizfHETef-OT9C2kTL97cY_VqOQ-uf5g_4FROs5MOAuru9WJIc3xybH4M3dc93PsaQEyw",
+                "key": "token"
+              }
+            ]
+          }
+        },
+        "response": {
+          "id": "1d230925-834a-4243-b10c-95e2a5af0752",
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 17 Jun 2023 17:13:36 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "stream": {
+            "type": "Buffer",
+            "data": [
+              91,
+              123,
+              34,
+              105,
+              100,
+              34,
+              58,
+              50,
+              44,
+              34,
+              110,
+              97,
+              109,
+              101,
+              34,
+              58,
+              34,
+              89,
+              97,
+              103,
+              110,
+              101,
+              115,
+              104,
+              32,
+              71,
+              111,
+              104,
+              105,
+              108,
+              34,
+              44,
+              34,
+              101,
+              109,
+              97,
+              105,
+              108,
+              34,
+              58,
+              34,
+              121,
+              97,
+              103,
+              110,
+              101,
+              115,
+              104,
+              103,
+              64,
+              120,
+              121,
+              122,
+              46,
+              99,
+              111,
+              109,
+              34,
+              125,
+              44,
+              123,
+              34,
+              105,
+              100,
+              34,
+              58,
+              51,
+              44,
+              34,
+              110,
+              97,
+              109,
+              101,
+              34,
+              58,
+              34,
+              89,
+              97,
+              103,
+              110,
+              101,
+              115,
+              104,
+              32,
+              71,
+              111,
+              104,
+              105,
+              108,
+              34,
+              44,
+              34,
+              101,
+              109,
+              97,
+              105,
+              108,
+              34,
+              58,
+              34,
+              121,
+              97,
+              103,
+              110,
+              101,
+              115,
+              104,
+              103,
+              64,
+              120,
+              121,
+              122,
+              46,
+              99,
+              111,
+              109,
+              34,
+              125,
+              44,
+              123,
+              34,
+              105,
+              100,
+              34,
+              58,
+              52,
+              44,
+              34,
+              110,
+              97,
+              109,
+              101,
+              34,
+              58,
+              34,
+              89,
+              97,
+              103,
+              110,
+              101,
+              115,
+              104,
+              32,
+              71,
+              111,
+              104,
+              105,
+              108,
+              34,
+              44,
+              34,
+              101,
+              109,
+              97,
+              105,
+              108,
+              34,
+              58,
+              34,
+              121,
+              97,
+              103,
+              110,
+              101,
+              115,
+              104,
+              103,
+              64,
+              120,
+              121,
+              122,
+              46,
+              99,
+              111,
+              109,
+              34,
+              125,
+              93
+            ]
+          },
+          "cookie": [],
+          "responseTime": 62,
+          "responseSize": 178
+        },
+        "id": "f0be4297-32e8-451a-8dc5-39324e2bcf86"
+      }
+    ],
+    "transfers": {
+      "responseTotal": 178
+    },
+    "failures": [],
+    "error": null
+  }
+}
