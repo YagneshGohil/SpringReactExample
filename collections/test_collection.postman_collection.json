@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "3a3210c2-0fc6-454a-ab0c-33381eca35f4",
+		"name": "test_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get all clients",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"let val = 123"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"  pm.response.to.have.status(400);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcmFib2RoYW0iLCJleHAiOjE2NzI2MTQ3NTYsImlhdCI6MTY3MjU3ODc1Nn0.MH_k85G92VaGGnFdKBizfHETef-OT9C2kTL97cY_VqOQ-uf5g_4FROs5MOAuru9WJIc3xybH4M3dc93PsaQEyw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/clients",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clients"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
